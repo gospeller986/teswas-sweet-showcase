@@ -46,7 +46,7 @@ const CourseDetails = () => {
         <div className={`text-center mb-16 ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Master Class
-            <span className="block bg-gradient-golden bg-clip-text text-transparent">
+            <span className="block text-primary font-bold">
               Curriculum
             </span>
           </h2>

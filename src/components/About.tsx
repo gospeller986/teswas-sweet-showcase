@@ -41,7 +41,7 @@ const About = () => {
           <div className={`${isVisible ? 'animate-slide-up' : 'opacity-0'}`} style={{ animationDelay: '0.3s' }}>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Meet Your
-              <span className="block bg-gradient-golden bg-clip-text text-transparent">
+              <span className="block text-primary font-bold">
                 Master Chef
               </span>
             </h2>

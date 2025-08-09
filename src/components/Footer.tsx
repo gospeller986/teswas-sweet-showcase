@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12">
           {/* Brand */}
           <div className="text-center md:text-left">
-            <h3 className="text-2xl font-bold mb-4 bg-gradient-golden bg-clip-text text-transparent">
+            <h3 className="text-2xl font-bold mb-4 text-primary">
               Teswa's Baking Academy
             </h3>
             <p className="text-background/80 mb-6 leading-relaxed">
@@ -51,16 +51,16 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <h4 className="text-xl font-semibold mb-6 text-primary">Quick Links</h4>
             <div className="space-y-3">
-              <a href="#about" className="block text-background/80 hover:text-primary transition-colors">
+              <a href="#about-section" className="block text-background/80 hover:text-primary transition-colors">
                 About Teswa
               </a>
-              <a href="#course" className="block text-background/80 hover:text-primary transition-colors">
+              <a href="#course-section" className="block text-background/80 hover:text-primary transition-colors">
                 Course Details
               </a>
-              <a href="#testimonials" className="block text-background/80 hover:text-primary transition-colors">
+              <a href="#testimonials-section" className="block text-background/80 hover:text-primary transition-colors">
                 Student Reviews
               </a>
-              <a href="#contact" className="block text-background/80 hover:text-primary transition-colors">
+              <a href="mailto:teswa.bakingacademy@gmail.com" className="block text-background/80 hover:text-primary transition-colors">
                 Contact Us
               </a>
             </div>
