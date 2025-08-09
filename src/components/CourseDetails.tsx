@@ -124,9 +124,9 @@ const CourseDetails = () => {
             </div>
             
             <div className="mt-8 p-6 bg-gradient-golden rounded-xl shadow-golden">
-              <h4 className="text-xl font-bold text-foreground mb-3">Course Investment</h4>
-              <div className="text-3xl font-bold text-foreground mb-2">₹15,999</div>
-              <p className="text-foreground/80">
+              <h4 className="text-xl font-bold text-white mb-3">Course Investment</h4>
+              <div className="text-3xl font-bold text-white mb-2">₹15,999</div>
+              <p className="text-white/90">
                 Includes all materials, recipes, and lifetime access to course resources
               </p>
             </div>
