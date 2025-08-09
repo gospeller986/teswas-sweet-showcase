@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-baking.jpg";
 
@@ -33,7 +34,7 @@ const Hero = ({ onEnrollClick }: HeroProps) => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6 animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           Master the Art of
-          <span className="block bg-gradient-golden bg-clip-text text-transparent">
+          <span className="block text-primary font-bold">
             Cake Baking
           </span>
         </h1>
