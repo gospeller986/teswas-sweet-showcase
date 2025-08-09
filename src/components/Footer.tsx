@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold mb-4 text-primary">
-              Teswa's Baking Academy
+              TTD's Baking Academy
             </h3>
             <p className="text-background/80 mb-6 leading-relaxed">
               Master the art of cake baking with professional techniques and artistic flair. 
@@ -16,13 +16,13 @@ const Footer = () => {
             </p>
             
             <div className="flex justify-center md:justify-start gap-4">
-              <a href="#" className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary/30 transition-colors">
+              <a href="https://www.instagram.com/ttd_cakes_cuttack/" className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary/30 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="#" className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary/30 transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary/30 transition-colors">
+              <a href="https://www.youtube.com/@teswatanaya" className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary/30 transition-colors">
                 <Youtube className="w-5 h-5" />
               </a>
             </div>
@@ -34,15 +34,15 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center justify-center md:justify-start gap-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                <span className="text-background/80">teswa.bakingacademy@gmail.com</span>
+                <span className="text-background/80">teswatanayadash1@gmail.com</span>
               </div>
               <div className="flex items-center justify-center md:justify-start gap-3">
                 <Phone className="w-5 h-5 text-primary flex-shrink-0" />
-                <span className="text-background/80">+91 98765 43210</span>
+                <span className="text-background/80">+91 7978280897</span>
               </div>
               <div className="flex items-center justify-center md:justify-start gap-3">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0" />
-                <span className="text-background/80">Bhubaneswar, Odisha</span>
+                <span className="text-background/80">Cuttack, Odisha</span>
               </div>
             </div>
           </div>

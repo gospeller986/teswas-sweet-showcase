@@ -23,19 +23,19 @@ const CourseDetails = () => {
 
   const modules = [
     {
-      title: "Foundation Techniques",
+      title: "Basic",
       lessons: ["Basic cake mixing", "Temperature control", "Ingredient science", "Equipment mastery"],
-      duration: "Week 1-2"
+      duration: "1 Hour"
     },
     {
-      title: "Artistic Decoration",
+      title: "Intermediate",
       lessons: ["Buttercream techniques", "Fondant artistry", "Royal icing", "Sugar craft"],
-      duration: "Week 3-4"
+      duration: "2 Hours"
     },
     {
-      title: "Advanced Creations",
+      title: "Advanced",
       lessons: ["Multi-tier cakes", "Wedding cakes", "Themed designs", "Business tips"],
-      duration: "Week 5-6"
+      duration: "3 Hours"
     }
   ];
 
@@ -51,7 +51,7 @@ const CourseDetails = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive 6-week journey from basic techniques to professional artistry
+            A comprehensive 6-hours journey from basic techniques to professional artistry
           </p>
         </div>
 
@@ -59,7 +59,7 @@ const CourseDetails = () => {
         <div className={`grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 ${isVisible ? 'animate-scale-in' : 'opacity-0'}`} style={{ animationDelay: '0.2s' }}>
           <div className="text-center p-6 bg-card rounded-xl shadow-soft hover-lift">
             <Clock className="w-8 h-8 text-primary mx-auto mb-3" />
-            <div className="text-2xl font-bold text-foreground mb-1">6 Weeks</div>
+            <div className="text-2xl font-bold text-foreground mb-1">6 Hours</div>
             <div className="text-sm text-muted-foreground">Duration</div>
           </div>
           
@@ -124,8 +124,8 @@ const CourseDetails = () => {
             </div>
             
             <div className="mt-8 p-6 bg-gradient-golden rounded-xl shadow-golden">
-              <h4 className="text-xl font-bold text-white mb-3">Course Investment</h4>
-              <div className="text-3xl font-bold text-white mb-2">₹15,999</div>
+              <h4 className="text-xl font-bold text-white mb-3">Courses Starting</h4>
+              <div className="text-3xl font-bold text-white mb-2">₹499</div>
               <p className="text-white/90">
                 Includes all materials, recipes, and lifetime access to course resources
               </p>

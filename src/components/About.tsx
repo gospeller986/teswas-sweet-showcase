@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import teswaPortrait from "@/assets/teswa-portrait.jpg";
+import teswaPortrait from "@/assets/teswa-potrait2.png";
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -48,8 +48,8 @@ const About = () => {
             
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
               <strong className="text-foreground">Teswa Tanaya Dash</strong> is a renowned cake artisan 
-              with over 15 years of experience creating extraordinary confections. Her journey began in 
-              the kitchens of Paris, where she mastered the art of French patisserie.
+              with over 10 years of experience creating extraordinary confections. Her journey began as 
+              a home baker, where her passion for baking blossomed into a professional career.
             </p>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
